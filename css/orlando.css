@@ -7,6 +7,10 @@ header{
     background-color: #5e299a;
 }
 
+a {
+    text-decoration: none;
+}
+
 header .container {
     position: relative;
 }
@@ -92,6 +96,10 @@ header .header-black li.clube-16 {
     background-position: -715px 0px;
 }
 
+header .header-black li.clube-17 {
+    background-position: -996px 0px;
+}
+
 header .header-black li a{
     width: 32px;
     height: 32px;
@@ -104,12 +112,40 @@ header .header-black li a{
 }
 
 #menu{
-    margin: 26px;
+    margin: 25px;
 }
 
 #menu li{
     display: inline-block;
     font-family: "Open-Sans";
+}
+
+#menu li.search{
+    width: 182px;
+}
+
+#menu li.search input{
+    background-color:#5C2D90 ;
+    color: #FFF;
+    border: none;
+    height: 30px;
+}
+
+#menu li.search ::-webkit-input-placeholder{
+    color: #FFF;
+}
+
+#menu li.search button {
+    background: none;
+    border: none;
+    position: relative;
+    right: 20px;
+    top: 7px;
+}
+
+#menu li.search button i{
+    font-size: 14px;
+    color: rgba(255, 255, 255, .5);
 }
 
 #menu li a {
@@ -118,3 +154,7 @@ header .header-black li a{
     padding: 10px 25px;
     
 }
+
+/* #menu li.search .input-group{
+    top: 8px;
+} */
