@@ -186,3 +186,40 @@ header .header-black li a{
     color: #FFF;
     font-weight: bold;
 }
+
+#new{
+    position: relative;
+    top: -110px;
+}
+
+#new h2{
+    color: #5E2799;
+    font-size: 48px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#new hr{
+    border: #FDE192 solid 2px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+#new .thumbnails{
+    margin-top: 20px;
+}
+
+#new .thumbnails h3{
+    color: #5E299A;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+#new .thumbnails time{
+    color: #A7A7A7;
+    font-size: small;
+    font-family: sans-serif;
+    margin-top: 20px;
+}
